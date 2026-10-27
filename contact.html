@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREENDEN-Products</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+    <!-- Responsive navbar -->
+     <nav class="bg-[#9EC6C8] flex items-center justify-between p-4 shadow-xl sticky top-0 z-10 ">
+        <h1 class="text-2xl text-gray-600 font-bold">GREENDEN</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="h-6 w-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <div class="md:flex md:items-center md:gap-4">
+             <div class="w-fit h-fit p-2 relative">
+            <i class="fa-solid fa-bell text-xl" style="color: rgb(12, 12, 12);"></i>
+            <p class="bg-red-500 w-5 h-5 rounded-full text-xs font-bold flex items-center justify-center absolute top-0 right-0.5">16</p>
+            </div>
+            <ul class="gap-6 hidden md:flex">
+            <li class="font-bold">
+                <a href="index.html"
+                    class=" text-[#4A5565] hover:underline hover:text-[#D07623] transition duration-300">Home</a>
+            </li>
+            <li class="font-bold">
+                <a href="product.html"
+                    class=" text-[#4A5565] hover:underline hover:text-[#D07623] transition duration-300">Products</a>
+            </li>
+            <li class="font-bold">
+                <a href="./contact.html"
+                    class=" text-[#4A5565] hover:underline hover:text-[#D07623] transition duration-300">Contact</a>
+            </li>
+        </ul>
+        </div>
+        
+    </nav>
+
+    <!-- contact section -->
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us
+            </h2>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical
+                issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.
+            </p>
+            <form action="#" class="space-y-8">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                        email</label>
+                    <input type="email" id="email"
+                        class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                        placeholder="name@flowbite.com" required>
+                </div>
+                <div>
+                    <label for="subject"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                    <input type="text" id="subject"
+                        class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                        placeholder="Let us know how we can help you" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
+                        message</label>
+                    <textarea id="message" rows="6"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                        placeholder="Leave a comment..."></textarea>
+                </div>
+                <button type="submit"
+                    class="cursor-pointer py-3 px-5 text-sm font-medium text-center text-gray-600 rounded-lg bg-[#9EC6C8] sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send
+                    message</button>
+            </form>
+        </div>
+    </section>
+     <!-- Footer section -->
+    <section class="p-4 mt-2 bg-[#9EC6C8] md:flex md:justify-around md:gap-20">
+        <div class="mt-2">
+        <h1 class="mt-4 text-2xl font-bold text-[#4A5565]">Greenden</h1>
+        <p class="mt-4 text-2xl text-[#4A5565] md:text-xl font-bold">Bringing nature and beauty to your home.</p>
+        <p class="mt-4 text-2xl text-[#4A5565] md:text-xl font-bold">&copy; 2026 greenden.All rights reserved</p> 
+        </div>
+        <div class="mt-2 flex gap-12 p-8">
+            <i class="fa-brands fa-square-instagram size-10" style="color:#4a5565;"></i>
+            <i class="fa-brands fa-youtube size-10" style="color:#4a5565;"></i>
+            <i class="fa-brands fa-facebook size-10" style="color: #4a5565;"></i>
+            <i class="fa-brands fa-square-whatsapp size-10" style="color:#4a5565"></i>
+            <i class="fa-brands fa-square-x-twitter size-10" style="color: #4a5565;"></i>
+        </div>
+    </section>
+
+</body>
+
+</html>
